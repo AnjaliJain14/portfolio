@@ -1,0 +1,320 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: montserrat;
+}
+
+html,body{
+  height: 100%;
+  width: 100%;
+}
+
+/* body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+} */
+
+nav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+nav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+#main{
+  position: relative;
+  overflow: hidden;
+}
+
+#page{
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  background-color: #daeef5;
+}
+
+#page>img{
+  position: absolute;
+  right: 5%;
+  top: 52%;
+  transform: translateY(-50%);
+  width: 50%;
+}
+
+#page>#nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 30px;
+  position: absolute;
+  z-index: 9;
+  height: 10%;
+  width: 100%;
+}
+
+#center-nav{
+  display: flex;
+  gap: 20px;
+  text-align: center;
+}
+
+#center-nav>a{
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+  font-size: 18px;
+  text-align: center;
+}
+
+#nav>input{
+  padding: 10px 5px;
+  border-radius: 10px;
+  border: 1px solid #dadada;
+  text-transform: uppercase;
+}
+
+#text{
+  padding: 30px 50px;
+  position: relative;
+  top: 18%;
+  left: 8%;
+  height: 75%;
+  width: 35%;
+  scale: 1.1;
+}
+
+#text>h1{
+  font-size: 60px;
+  line-height: 1;
+  margin-top: 20px;
+}
+
+.name span {
+  margin:0px;
+  color: GREEN;
+  font-family:Brush Script MT;
+  text-align:left;
+}
+
+
+#text>h4{
+  margin-top: 30px;
+  color: #2b2b2b;
+  font-size: 17px;
+  font-weight: 500;  
+}
+
+
+#buttons{
+  position: absolute;
+  left: 0%;
+  bottom: 18%;
+  height: 20%;
+  width: 100%;
+  padding: 130px;
+}
+
+
+#buttons>button{
+  padding: 10px 22px;
+  border-radius: 10px;
+  border: none;
+  font-weight: 500;
+}
+
+#buttons>button>a{
+  font-size: 20px;
+  color: wheat;
+}
+
+#buttons>#b2{
+  margin-left: 20px;
+  background-color: black;
+}
+
+/* #page1{
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  background-color: #c3cef0;
+}
+
+
+/* #page1>img{
+  position: absolute;
+  bottom: 5%;
+  left: 5%;
+  width: 10%;
+} */ */
+
+
+#skill{
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  background-color: #c3cef0;
+}
+
+.skills {
+  max-width: 68.75rem;
+  margin: auto;
+  text-align: center;
+  margin-top: 2.5rem;
+}
+
+.skill-header {
+  margin-bottom: 1rem;
+}
+
+.skills-wrapper img {
+  padding: 1.25rem;
+}
+
+.icon {
+  width: 11.875rem;
+  height: 11.25rem;
+}
+
+.icon-card {
+  background-color: #c3cef0;;
+  border-radius: 11px;
+  box-shadow: 0 3px 10px var(--secondary-shadow);
+  padding: 20px;
+  margin: 10px;
+}
+
+
+.projects {
+  background-color: #daeef5;
+  padding: 32px 0;
+  margin-top: 2rem;
+}
+
+.project-pic {
+  width: 65%;
+  height: 60%;
+}
+
+.projects-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.projects-title {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.project-container {
+  text-align: center;
+  width: 21.875rem;
+  padding: 1rem;
+}
+
+.project-container p {
+  padding: 0.4rem;
+}
+
+.project-title {
+  margin-bottom: var(--bottom-margin);
+}
+
+.project-details {
+  margin-bottom: var(--bottom-margin);
+  text-align: justify;
+}
+
+.project-card {
+  background-color:  #daeef5;
+  border-radius: 11px;
+  box-shadow: 0 3px 10px var(--primary-shadow);
+  padding: 20px;
+  margin: 10px;
+}
+
+
+.end{
+  background-color: #000;
+  color: #c3cef0;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.cont{
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.contact-me p{ 
+  font-size: 40px;
+}
+
+.contact-me h2{ 
+  font-size: 100px;
+}
+
+
+.contact-me{
+  width: 100%;
+  height: 570px;
+  font-weight: bold;
+  position: relative;
+}
+
+
+
+.collab{
+  font-size: 3.1rem;
+  font-family: 'Montserrat','sans-serif';
+  display: block;
+  font-weight: bolder;
+  margin: 100px auto;
+  padding: 30px 0;
+}
+
+.copyright{
+  color: white;
+  font-size: 1.2rem;
+  margin: 0;
+  padding: 8px 0 8px 0;
+}
+
+.btn{
+  padding: 7px 7px;
+}
+
+.btn>img{
+  /* border-radius: 50%;
+  position: relative; */
+  bottom: 40px;
+  border-radius: 50%;
+}
+
+.nav-item>a{
+  color: #3e3e3e;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 7px 20px;
+  text-transform: uppercase;
+}
+
+.header_section{
+  background-color: #2222221f;
+}
